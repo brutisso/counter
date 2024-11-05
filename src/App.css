@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.circle {
+  width: 1em; /* Set width relative to font size */
+  height: 1em; /* Set height relative to font size */
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0.5em auto;
+  padding: 0.5em; /* Add padding around the text */
+}

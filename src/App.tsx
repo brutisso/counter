@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div id='app'>
-      <h1 id="countText">{counterValue}</h1>
+      <h1 className='circle'>{counterValue}</h1>
       <div className="card">
         <button id="counter" type="button" onClick={onclick}>Räkna</button>
       </div>
